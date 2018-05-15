@@ -1,0 +1,106 @@
+body {
+	background-color: #1b2b5d;
+	background-image: -webkit-linear-gradient(top left, #1b2b5d 25%, #0889c6 100%);
+	background-image: -o-linear-gradient(top left, #1b2b5d 25%, #0889c6 100%);
+	background-image: linear-gradient(to bottom right, #1b2b5d 25%, #0889c6 100%);
+}
+
+a {
+	text-decoration: none;
+}
+
+.mainContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 0 5vw;
+	height: 100%;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+header .logo img {
+	width: 10vw;
+}
+
+.country img{
+	width: 10vw;
+}
+
+
+.menuHolder{
+	display: flex;
+	flex-direction: row;
+}
+
+.left {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+
+.left img {
+	width: 30em; 
+	z-index: 1;
+}
+
+.buttons a {
+	color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 1px;
+}
+
+.desc {
+	color: white;
+	margin: 20px 0;
+}
+
+.right {
+	width: 60%;
+}
+
+
+.right ul {
+	/*margin-top: 60px;*/
+	list-style-type: none;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	-webkit-clip-path: polygon(68% 0, 100% 1%, 100% 100%, 70% 100%, 0% 50%);
+	clip-path: polygon(68% 0, 100% 1%, 100% 100%, 70% 100%, 0% 50%);
+}
+
+.right li {
+	text-decoration: none;
+	height: 100px;
+	width: 100%;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+.school {
+	background: url(../img/school.png) no-repeat center center;
+}
+
+.visor {
+	background: url(../img/visor.png) no-repeat center center;
+}
+
+.hands {
+	background: url(../img/hands.png) no-repeat center center;
+}
+
+.campanella {
+	background: url(../img/campanella.png) no-repeat center center;
+}
+
+.right img {
+	height: 100%;
+	width: 100%;
+}

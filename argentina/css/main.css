@@ -54,7 +54,7 @@ header .logo img {
 	padding: 1px;
 }
 
-.desc {
+.left .desc {
 	color: white;
 	margin: 20px 0;
 }
@@ -103,4 +103,88 @@ header .logo img {
 .right img {
 	height: 100%;
 	width: 100%;
+}
+
+.slider {
+	width: 100%;
+}
+
+.slider .item {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+
+}
+
+.slider .item .upper {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.slider .item .upper .desc{
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	color: white;
+}
+
+.slider .item .upper .desc h3{
+	width: 60%;
+	color: #0caee5;
+}
+
+.slider .item .upper .desc h3 span{
+	color: white;
+}
+
+.slider .item .upper .infografia {
+	width: 60%;	
+	margin-left: 15px;
+	margin-top: 80px;
+}
+
+.slider .item .upper .infografia img{
+	width: 100%;	
+}
+
+.slider .item .lower {
+	display: flex;
+	flex-direction: column;	
+}
+
+
+
+
+
+.slider .item .lower  .circulos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.slider .item .lower .circulos .circItem{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	width: 20%;
+	border: 1px dashed white;
+	border-radius: 100%;
+	height: 190px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+}
+
+.slider .item .lower  .circulos .circItem span{
+	color: #0caee5;
+	font-size: 14px;
+}
+
+.slider .item .lower .circulos img{
+	width: 40%;	
 }

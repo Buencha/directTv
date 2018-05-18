@@ -78,6 +78,7 @@ header .logo img {
 
 
 .right ul {
+	
 	/*margin-top: 60px;*/
 	list-style-type: none;
 	height: 100%;
@@ -96,6 +97,7 @@ header .logo img {
   	-o-background-size: cover;
  	background-size: cover;
  	cursor: pointer;
+ 
 }
 
 
@@ -193,7 +195,7 @@ header .logo img {
 	flex-direction: column;
 	color: white;
 	width: 18%;
-	border: 1px dashed white;
+	border: 2px dashed white;
 	border-radius: 100%;
 	height: 205px;
 	align-items: center;
@@ -211,6 +213,8 @@ header .logo img {
 .slider .item .lower .circulos img{
 	width: 40%;	
 	height: 50%;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 99% 100%, 4% 91%);
+	clip-path: polygon(0 0, 100% 0%, 99% 100%, 4% 91%);
 }
 
 .slider .item .lower .testimonios{
@@ -227,17 +231,22 @@ header .logo img {
 	width: 40%;
 	font-size: 12px;
 }
+.slider .item .lower .testimonios .testItem .text {
+	display: flex;
+	flex-direction: column;
+}
 
-.slider .item .lower .testimonios .testItem span{
-	margin: 5px 0;
+.slider .item .lower .testimonios .testItem .text span{
 	font-weight: bold;
 }
 
-
+.slider .item .lower .testimonios .testItem .text em{
+	font-size: 14px;
+}
 .slider .item .lower .testimonios .testItem img {
-	width: 20%;
+	width: 30%;
 	border-radius: 100%;
-	height: 90px;
+	height: 150px;
 	margin: 0 20px;
 }
 
@@ -258,16 +267,32 @@ header .logo img {
 	
 }
 
-.footer  a {
-	width: 25%;
+.footer .social a{
+	color: white;
+	font-size: 14px;
+	padding: 0 10px;
 }
 
-.footer  a:last-child {
-	width: 15%;
-	height: 75%;
+.footer .reports {
+	display: flex;
+	flex-direction: column;
+	color: white;
 }
 
-.footer  a img {
-	width: 100%;
-	height: 100%;
+.footer .reports .years{
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	
+}
+
+
+.footer .reports .years a{
+	padding: 0 5px;
+	color: white;
+}
+
+.footer .bRight {
+	border-right: 1px solid white;
+
 }

@@ -84,13 +84,13 @@ header .logo img {
 	height: 100%;
 	width: 100%;
 	z-index: -1;
-	-webkit-clip-path: polygon(68% 0, 100% 1%, 100% 100%, 70% 100%, 0% 50%);
-	clip-path: polygon(68% 0, 100% 1%, 100% 100%, 70% 100%, 0% 50%);
-}
+	-webkit-clip-path: polygon(100% 1%, 100% 100%, 0 37%, 0 23%);
+	clip-path: polygon(100% 1%, 100% 100%, 0 37%, 0 23%);
+	}
 
 .right li {
 	text-decoration: none;
-	height: 100px;
+	height: 150px;
 	width: 100%;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -103,9 +103,9 @@ header .logo img {
 
 .right li:hover {
 	opacity: .4;
-	-webkit-transition: opacity 0.3s ease-in;
+	/*-webkit-transition: opacity 0.3s ease-in;
     -moz-transition: opacity 0.3s ease-in;
-    transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-in;*/
 }
 
 

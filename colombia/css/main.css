@@ -1,0 +1,355 @@
+body {
+	background-color: #1b2b5d;
+	background-image: -webkit-linear-gradient(top left, #1b2b5d 25%, #0889c6 100%);
+	background-image: -o-linear-gradient(top left, #1b2b5d 25%, #0889c6 100%);
+	background-image: linear-gradient(to bottom right, #1b2b5d 25%, #0889c6 100%);
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.mainContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 0 5vw;
+	height: 100%;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+header .logo img {
+	width: 10vw;
+}
+
+.country img{
+	width: 10vw;
+}
+
+
+.menuHolder{
+	display: flex;
+	flex-direction: row;
+}
+
+.left {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+
+.left img {
+	width: 30em;
+	z-index: 1;
+}
+
+.buttons {
+	width: 40%;
+	display:  flex;
+	flex-direction:  row;
+	justify-content:  space-between;
+}
+
+
+.buttons a {
+	color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 1px;
+	font-size: 11px;
+}
+
+.left .desc {
+	color: white;
+	margin: 20px 0;
+}
+
+.right {
+	width: 60%;
+}
+
+
+.right ul {
+	
+	/*margin-top: 60px;*/
+	list-style-type: none;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	-webkit-clip-path: polygon(68% 0, 100% 1%, 100% 100%, 70% 100%, 0% 50%);
+	clip-path: polygon(68% 0, 100% 1%, 100% 100%, 70% 100%, 0% 50%);
+}
+
+.right li {
+	text-decoration: none;
+	height: 100px;
+	width: 100%;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+ 	cursor: pointer;
+ 
+}
+
+
+.right li:hover {
+	opacity: .4;
+	/*-webkit-transition: opacity 0.3s ease-in;
+    -moz-transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-in;*/
+}
+
+
+.caqueta {
+	background: url(../img/mitu.png) no-repeat center center;
+}
+
+.mitu {
+	background: url(../img/mitu.png) no-repeat center center;
+}
+
+.pescadito {
+	background: url(../img/pescadito.png) no-repeat center center;
+}
+
+.right img {
+	height: 100%;
+	width: 100%;
+}
+
+.slider {
+	
+}
+
+.slider .item {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+
+}
+
+.slider .item .upper {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.slider .item .upper .desc{
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	color: white;
+}
+
+.slider .item .upper .desc h3 {
+	color: #0caee5;
+	font-size: 22px;
+}
+
+.slider .item2 .upper .desc h3{
+	width: 80%;
+	color: #0caee5;
+	font-size: 24px;
+	margin-bottom: 0;
+}
+
+.slider .item .upper .desc h3 span{
+	color: white;
+}
+
+.slider .item .upper .infografia {
+	width: 60%;	
+	margin-left: 15px;
+	margin-top: 30px;
+}
+
+.slider .item3 .upper .infografia {
+	
+	margin-top: 0;
+}
+
+.slider .item .upper .infografia img{
+	width: 100%;	
+}
+
+.slider .item2 .upper .infografia img{
+	/* width: 90%; */
+	margin-left: 15px;
+	margin-top: 30px;
+}
+
+.slider .item3 .upper .infografia img{
+	/* width: 60%; */
+	margin-left: 15px;
+	margin-top: 40px;
+}
+
+
+.slider .item .lower {
+	display: flex;
+	flex-direction: column;	
+}
+
+.slider .item .lower h4{
+	color: white;
+	font-size: 30px;
+}
+
+.slider .item .lower  .circulos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.slider .item .lower .circulos .circItem{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	width: 20%;
+	border: 2px dashed white;
+	border-radius: 100%;
+	height: 215px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+}
+
+.slider .item .lower  .circulos .circItem span{
+	color: #0caee5;
+	font-size: 20px;
+}
+
+.slider .item .lower .circulos img{
+	width: 40%;	
+	height: 50%;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 99% 100%, 4% 91%);
+	clip-path: polygon(0 0, 100% 0%, 99% 100%, 4% 91%);
+}
+
+
+.slider .item2 .lower .circulos .congres1 {
+	/* width: 30%; */
+	height: 40%;
+	-webkit-clip-path: polygon(3% 3%, 100% 0%, 95% 88%, 1% 96%);
+	clip-path: polygon(3% 3%, 100% 0%, 95% 88%, 1% 96%);
+}
+
+
+.slider .item2 .lower .circulos .congres2 {
+	width: 40%;	
+	height: 50%;
+	-webkit-clip-path: polygon(0 14%, 100% 0%, 96% 95%, 0 100%);
+	clip-path: polygon(0 14%, 100% 0%, 96% 95%, 0 100%);
+}
+
+.slider .item3 .lower .circulos .cine1{
+	width: 45%;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 97% 97%, 8% 98%);
+	clip-path: polygon(0 0, 100% 0%, 97% 97%, 8% 98%);
+}
+
+.slider .item3 .lower .circulos .cine2 {
+	width: 40%;	
+	height: 50%;
+	-webkit-clip-path: polygon(0 7%, 100% 0%, 97% 95%, 4% 100%);
+	clip-path: polygon(0 7%, 100% 0%, 97% 95%, 4% 100%);
+}
+
+.slider .item4 .lower .circulos .volun1 {
+	width: 40%;	
+	height: 50%;
+	-webkit-clip-path: polygon(0 7%, 100% 0%, 96% 100%, 4% 100%);
+	clip-path: polygon(0 7%, 100% 0%, 96% 100%, 4% 100%);
+}
+
+
+.slider .item .lower .testimonios{
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	margin: 30px 0;
+}
+
+.slider .item .lower .testimonios .testItem {
+	display: flex;
+	flex-direction: row;
+	color: white;
+	width: 45%;
+	font-size: 12px;
+}
+.slider .item .lower .testimonios .testItem .text {
+	display: flex;
+	flex-direction: column;
+}
+
+.slider .item .lower .testimonios .testItem .text span{
+	font-weight: bold;
+}
+
+.slider .item .lower .testimonios .testItem .text em{
+	font-size: 14px;
+}
+.slider .item .lower .testimonios .testItem img {
+	width: 35%;
+	border-radius: 100%;
+	height: 150px;
+	margin: 0 20px;
+}
+
+
+
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	height: 10vh;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1b2b5d;
+	background-image: -webkit-linear-gradient(358deg, #1b2b5d 0%, #0889c6 50%);
+	background-image: -o-linear-gradient(358deg, #1b2b5d 0%, #0889c6 50%);
+	background-image: linear-gradient(88deg, #1b2b5d 0%, #0889c6 50%);
+	padding: 5px 10px;
+	
+}
+
+.footer .social a{
+	color: white;
+	font-size: 14px;
+	padding: 0 10px;
+}
+
+.footer .reports {
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+.footer .reports .years{
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	
+}
+
+
+.footer .reports .years a{
+	padding: 0 5px;
+	color: white;
+}
+
+.footer .bRight {
+	border-right: 1px solid white;
+
+}

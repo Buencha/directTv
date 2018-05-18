@@ -5,7 +5,7 @@ body {
 	background-image: linear-gradient(to bottom right, #1b2b5d 25%, #0889c6 100%);
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 a {
@@ -160,6 +160,13 @@ header .logo img {
 	font-size: 22px;
 }
 
+.slider .item2 .upper .desc h3{
+	width: 80%;
+	color: #0caee5;
+	font-size: 24px;
+	margin-bottom: 0;
+}
+
 .slider .item .upper .desc h3 span{
 	color: white;
 }
@@ -170,9 +177,27 @@ header .logo img {
 	margin-top: 80px;
 }
 
+.slider .item3 .upper .infografia {
+	
+	margin-top: 0;
+}
+
 .slider .item .upper .infografia img{
 	width: 100%;	
 }
+
+.slider .item2 .upper .infografia img{
+	width: 90%;
+	margin-left: 40px;	
+}
+
+.slider .item3 .upper .infografia img{
+	width: 60%;
+	margin-left: 90px;	
+	
+
+}
+
 
 .slider .item .lower {
 	display: flex;
@@ -216,6 +241,44 @@ header .logo img {
 	-webkit-clip-path: polygon(0 0, 100% 0%, 99% 100%, 4% 91%);
 	clip-path: polygon(0 0, 100% 0%, 99% 100%, 4% 91%);
 }
+
+
+.slider .item2 .lower .circulos .congres1 {
+	width: 30%;	
+	height: 40%;
+	-webkit-clip-path: polygon(3% 3%, 100% 0%, 95% 88%, 1% 96%);
+	clip-path: polygon(3% 3%, 100% 0%, 95% 88%, 1% 96%);
+}
+
+
+.slider .item2 .lower .circulos .congres2 {
+	width: 40%;	
+	height: 50%;
+	-webkit-clip-path: polygon(0 14%, 100% 0%, 96% 95%, 0 100%);
+	clip-path: polygon(0 14%, 100% 0%, 96% 95%, 0 100%);
+}
+
+.slider .item3 .lower .circulos .cine1{
+	width: 30%;	
+	height: 40%;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 97% 97%, 8% 98%);
+	clip-path: polygon(0 0, 100% 0%, 97% 97%, 8% 98%);
+}
+
+.slider .item3 .lower .circulos .cine2 {
+	width: 40%;	
+	height: 50%;
+	-webkit-clip-path: polygon(0 7%, 100% 0%, 97% 95%, 4% 100%);
+	clip-path: polygon(0 7%, 100% 0%, 97% 95%, 4% 100%);
+}
+
+.slider .item4 .lower .circulos .volun1 {
+	width: 40%;	
+	height: 50%;
+	-webkit-clip-path: polygon(0 7%, 100% 0%, 96% 100%, 4% 100%);
+	clip-path: polygon(0 7%, 100% 0%, 96% 100%, 4% 100%);
+}
+
 
 .slider .item .lower .testimonios{
 	display: flex;

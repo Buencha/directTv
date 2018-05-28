@@ -47,7 +47,7 @@ header .logo img {
 }
 
 .left img {
-	width: 40em;
+	width: 45em;
 	z-index: 1;
 }
 
@@ -69,7 +69,6 @@ header .logo img {
 
 .left .desc {
 	color: white;
-	font-weight: 300;
 	margin: 20px 0;
 }
 
@@ -85,9 +84,9 @@ header .logo img {
 	height: 100%;
 	width: 100%;
 	z-index: -1;
-	-webkit-clip-path: polygon(100% 0%, 100% 65%, 50% 66%, 0 54%, 42% 5%);
-	clip-path: polygon(100% 0%, 100% 65%, 50% 66%, 0 54%, 42% 5%);
-}
+	-webkit-clip-path: polygon(100% 1%, 100% 100%, 0 37%, 0 23%);
+	clip-path: polygon(100% 1%, 100% 100%, 0 37%, 0 23%);
+	}
 
 .right li {
 	text-decoration: none;
@@ -110,16 +109,20 @@ header .logo img {
 }
 
 
-.caqueta {
-	background: url(../img/perdonar.png) no-repeat center center;
+.clase {
+	background: url(../img/URU09.png) no-repeat center center;
 }
 
-.mitu {
-	background: url(../img/mitu.png) no-repeat center center;
+.futbol {
+	background: url(../img/URU11.png) no-repeat center center;
 }
 
-.pescadito {
-	background: url(../img/pescadito.png) no-repeat center center;
+.cancha {
+	background: url(../img/URU10.png) no-repeat center center;
+}
+
+.arbol {
+	background: url(../img/URU12.png) no-repeat center center;
 }
 
 .right img {
@@ -151,15 +154,11 @@ header .logo img {
 	color: white;
 }
 
-.slider .item .upper .desc h3 {
+.slider .item .upper .desc h3{
+	width: 60%;
 	color: #0caee5;
 	font-size: 22px;
 }
-
-.slider .item .upper .desc p{
-	font-size: 12px;
-}
-
 
 .slider .item2 .upper .desc h3{
 	width: 80%;
@@ -172,11 +171,10 @@ header .logo img {
 	color: white;
 }
 
-
 .slider .item .upper .infografia {
 	width: 60%;	
 	margin-left: 15px;
-	margin-top: 30px;
+	margin-top: 80px;
 }
 
 .slider .item3 .upper .infografia {
@@ -189,15 +187,15 @@ header .logo img {
 }
 
 .slider .item2 .upper .infografia img{
-	/* width: 90%; */
-	margin-left: 15px;
-	margin-top: 30px;
+	width: 90%;
+	margin-left: 40px;	
 }
 
 .slider .item3 .upper .infografia img{
-	/* width: 60%; */
-	margin-left: 15px;
-	margin-top: 40px;
+	width: 60%;
+	margin-left: 90px;	
+	
+
 }
 
 
@@ -221,10 +219,10 @@ header .logo img {
 	display: flex;
 	flex-direction: column;
 	color: white;
-	width: 20%;
+	width: 18%;
 	border: 2px dashed white;
 	border-radius: 100%;
-	height: 215px;
+	height: 205px;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
@@ -246,7 +244,7 @@ header .logo img {
 
 
 .slider .item2 .lower .circulos .congres1 {
-	/* width: 30%; */
+	width: 30%;	
 	height: 40%;
 	-webkit-clip-path: polygon(3% 3%, 100% 0%, 95% 88%, 1% 96%);
 	clip-path: polygon(3% 3%, 100% 0%, 95% 88%, 1% 96%);
@@ -261,7 +259,8 @@ header .logo img {
 }
 
 .slider .item3 .lower .circulos .cine1{
-	width: 45%;
+	width: 30%;	
+	height: 40%;
 	-webkit-clip-path: polygon(0 0, 100% 0%, 97% 97%, 8% 98%);
 	clip-path: polygon(0 0, 100% 0%, 97% 97%, 8% 98%);
 }
@@ -284,15 +283,15 @@ header .logo img {
 .slider .item .lower .testimonios{
 	display: flex;
 	flex-direction: row;
-	justify-content: start;
-	margin: 50px 0;
+	justify-content: space-around;
+	margin: 30px 0;
 }
 
 .slider .item .lower .testimonios .testItem {
 	display: flex;
 	flex-direction: row;
 	color: white;
-	width: 45%;
+	width: 40%;
 	font-size: 12px;
 }
 .slider .item .lower .testimonios .testItem .text {
@@ -300,13 +299,15 @@ header .logo img {
 	flex-direction: column;
 }
 
-
+.slider .item .lower .testimonios .testItem .text span{
+	font-weight: bold;
+}
 
 .slider .item .lower .testimonios .testItem .text em{
-	font-size: 12px;
+	font-size: 14px;
 }
 .slider .item .lower .testimonios .testItem img {
-	width: 35%;
+	width: 30%;
 	border-radius: 100%;
 	height: 150px;
 	margin: 0 20px;

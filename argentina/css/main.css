@@ -76,7 +76,7 @@ header .logo img {
 .left img {
 	width: 45em;
 	z-index: 1;
-	margin-top: 35px;
+	margin-top: 50px;
 }
 
 .buttons {
@@ -116,8 +116,8 @@ width: 100%;
 	
 z-index: -1;
 	
--webkit-clip-path: polygon(100% 0, 100% 79%, 0 53%, 0 41%, 64% 0);
-clip-path: polygon(100% 0, 100% 79%, 0 53%, 0 41%, 64% 0);
+-webkit-clip-path: polygon(100% 0, 100% 81%, 0 60%, 0 48%, 66% 0);
+clip-path: polygon(100% 0, 100% 81%, 0 60%, 0 48%, 66% 0);
 	
 padding: 0;
 	

@@ -116,8 +116,8 @@ width: 100%;
 	
 z-index: -1;
 	
--webkit-clip-path: polygon(100% 0, 100% 100%, 72% 100%, 0 43%, 71% 0);
-clip-path: polygon(100% 0, 100% 100%, 72% 100%, 0 43%, 71% 0);
+-webkit-clip-path: polygon(100% 1%, 100% 100%, 0 65%, 59% 0);
+clip-path: polygon(100% 1%, 100% 100%, 0 65%, 59% 0);
 	
 padding: 0;
 	
@@ -232,7 +232,7 @@ margin: 0;
 .slider .item .upper .infografia {
 	width: 55%;
 	/* margin-left: 15px; */
-	margin-top: 80px;
+	margin-top: 35px;
 }
 
 .slider .item2 .upper .infografia {
@@ -286,15 +286,19 @@ margin-top: 50px;
 	display: flex;
 	flex-direction: column;
 	color: white;
-	width: 19%;
+	width: 15%;
 	border: 2px dashed white;
 	border-radius: 100%;
 	height: 180px;
 	align-items: center;
 	justify-content: start;
 	text-align: center;
-	font-size: 11px;
-	padding: 15px;
+	font-size: 12px;
+	padding: 16px;
+}
+
+.slider .item3 .lower .circulos .circItem {
+    height: 151px;
 }
 
 .slider .item .lower .circulos .circItem:first-child {
@@ -379,7 +383,7 @@ justify-content: start;
 	display: flex;
 	flex-direction: row;
 	color: white;
-	/*width: 50%;*/
+	width: 50%;
 	font-size: 12px;
 	align-items: center;
 }

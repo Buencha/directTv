@@ -3,7 +3,7 @@ $(document).ready(function(){
   $('.slider').slick();
 });
 
-$(".right ul li").click(function(event) {
+$(".right li").click(function(event) {
 	
 	var selected = event.target;
 	var chosenIndex = $(selected).attr("class");

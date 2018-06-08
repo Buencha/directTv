@@ -532,17 +532,78 @@ margin: 0;
 
 }
 
+.resumen {
 
+display: flex !important;
 
-#svg{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
+flex-direction:  row;
 }
 
-#line{
-  stroke-width:2px;
-  stroke:rgb(0,0,0);
+.resumen .desc {
+
+width:  50%;
+
+font-size: 18px;
 }
+
+.resumen .desc h3 {
+	
+color: #0889c6;
+	
+font-size: 40px;
+}
+
+.resumen .desc span {
+	
+color: white;
+}
+
+.resumen .infografia {
+
+display:  flex;
+
+flex-direction:  column;
+
+justify-content:  center;
+
+align-items:  center;
+
+color: white;
+
+font-size: 16px;
+}
+.resumen .row {
+
+}
+
+.resumen .row  .each{
+
+display:  flex;
+
+flex-direction:  column;
+
+justify-content:  center;
+
+align-items:  center;
+}
+
+.resumen .row  .each img{
+
+width: 50px;
+}
+
+.resumen .row  .each span {
+
+}
+
+.infografia h3 {
+
+}
+
+.isRow {
+	flex-direction: row;
+}
+
+.isColumn {
+	flex-direction: column;
+} 

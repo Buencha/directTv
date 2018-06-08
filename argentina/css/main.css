@@ -163,15 +163,27 @@ margin: 0;
 
 
 .school {
-	background: url(../img/school.png) no-repeat center center;
+	background: url(../img/school.png) no-repeat center center !important;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 .visor {
-	background: url(../img/visor.png) no-repeat center center;
+	background: url(../img/visor.png) no-repeat center center !important;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 .hands {
-	background: url(../img/hands.png) no-repeat center center;
+	background: url(../img/hands.png) no-repeat center center !important;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 .campanella {
@@ -518,4 +530,19 @@ margin: 0;
 .footer .bRight {
 	border-right: 1px solid white;
 
+}
+
+
+
+#svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+#line{
+  stroke-width:2px;
+  stroke:rgb(0,0,0);
 }

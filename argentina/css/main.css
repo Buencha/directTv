@@ -59,31 +59,42 @@ header .logo img {
 	background-image: linear-gradient(22deg, #1b2b5d 25%, #0889c6 100%);
 }
 
-.menuHolder{
-	display: flex;
+.menuHolder {
+	display: flex !important;
 	flex-direction: row;
-	
+}
 
+.menuHolder:first-child {
+	background: url(../img/fondoControl.png) no-repeat center center;
+}
+
+.layer {
+    background-color: #1b2b5d;
+    opacity: .7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .left {
-	width: 40%;
 	display: flex;
-	padding-left: 5vw;
 	flex-direction: column;
+	padding: 5vw 5vw;
 }
 
 .left img {
-	width: 45em;
+	width: 35em;
 	z-index: 1;
 	margin-top: 50px;
 }
 
 .buttons {
-	width: 40%;
+	width: 75%;
 	display:  flex;
 	flex-direction:  row;
-	justify-content:  space-between;
+	justify-content: flex-end;
 }
 
 
@@ -96,13 +107,19 @@ header .logo img {
 	font-weight:  bold;
 }
 
-.left .desc {
+.desc {
 	color: white;
 	margin: 20px 0;
+	width: 75%;
 }
 
 .right {
-	width: 60%;
+	flex-direction:  column;
+	width: 50%;
+	display:  flex;
+	align-items:  center;
+	justify-content: center;
+	z-index: 1;
 }
 
 
@@ -158,12 +175,67 @@ margin: 0;
 }
 
 .campanella {
-	background: url(../img/campanella.png) no-repeat center center;
+	background: url(../img/campanella.png) no-repeat center center !important;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
+
+.school h3,
+.visor h3,
+.hands h3,
+.campanella h3{
+	color: #0caee5;
+	font-size: 50px;
+}
+
+.school h3 span,
+.visor h3 span,
+.hands h3 span,
+.campanella h3 span{
+	color: white;
+	
+}
+
+.school .buttons a,
+.visor .buttons a,
+.hands .buttons a,
+.campanella .buttons a{
+	background-color: white;
+	color: #0caee5;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0;
+	
+}
+
+.school .buttons,
+.visor .buttons,
+.hands .buttons,
+.campanella .buttons{
+	justify-content: flex-start;
+	
+}
+
 
 .right img {
 	height: 100%;
 	width: 100%;
+}
+.upperPart .slick-dots {
+	bottom: 0;
+}
+
+.upperPart .slick-dots li button:before {
+	color: white;
+	opacity: .5;
+}
+
+.upperPart .slick-dots li.slick-active button:before {
+    opacity: 100;
+    color: white;
 }
 
 .arrow {

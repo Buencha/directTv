@@ -1,7 +1,24 @@
 
 $(document).ready(function(){
   $('.slider').slick();
-});
+  
+  $('.upperPart').slick({
+  	dots: true,
+  	arrows:false
+  });
+  	
+	setTimeout(function(){
+  		 var firstH = $(".upperPart").first().css("height");
+
+  		$(".campanella").css("height", firstH);
+	},3500)
+ 
+	 
+	});
+
+  
+
+
 
 $(".right ul li").click(function(event) {
 	

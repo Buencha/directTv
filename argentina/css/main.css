@@ -250,6 +250,11 @@ margin: 0;
     color: white;
 }
 
+
+.slick-dots li button:before {
+	font-size: 10px;
+}
+
 .arrow {
 	width: 100%;
 	display: flex;
@@ -699,4 +704,51 @@ margin: 20px 0;
 width: 55%;
 
 margin: 25px 0;
+}
+
+
+.grafs {
+	display: flex;
+	flex-direction:column;
+	width: 50%;
+
+}
+.grafRow{
+	display: flex;
+	flex-direction:row;
+}
+.grafs h3{
+	font-size: 25px;
+	color: white;
+}
+
+.grafs span{
+	font-size: 16px;
+	color: white;
+}
+
+.grafs img{
+	
+}
+
+.grafItemR {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.grafItemC {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.dashedU {
+	border-bottom: 2px dashed white;
+	border-right:  2px dashed white;
+}
+
+.dashedD {
+	border-top: 2px dashed white;
+	border-left:  2px dashed white;
 }

@@ -572,6 +572,7 @@ color: white;
 
 font-size: 16px;
 }
+
 .resumen .row {
 
 display: flex;
@@ -613,9 +614,9 @@ margin-bottom: 15px;
 
 .infografia h3 {
 
-margin: 15px 0;
+margin: 5px 0;
 
-font-size: 30px;
+font-size: 40px;
 
 justify-content:  center;
 
@@ -629,3 +630,32 @@ display: flex;
 .isColumn {
 	flex-direction: column;
 } 
+
+.first {
+
+margin-top: 50px;
+}
+
+.first span{
+ text-align: center;
+ margin-bottom: 10px;
+}
+
+.second {
+
+}
+
+.second h1{
+
+font-size: 75px;
+
+margin: 15px 5px;
+}
+
+.second p{width: 50%;margin: 35px 0;height: 40px;}
+
+.forth {align-items: center;}
+
+.fifth {
+
+}

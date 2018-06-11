@@ -23,7 +23,6 @@
 
 <body>  
   <!-- GENERAL PADDING -->
-  <div class="mainContainer">
     <!-- header -->
     <header>
       <a href="" class="logo"><img src="img/logo.png" alt=""></a>
@@ -33,51 +32,116 @@
     </header>
 
     <!-- upperPart -->
-
+<div class="upperPart">
     <div class="menuHolder">
+      <!-- <div class="layer">
+      </div> -->
         <div class="left">
-          <img src="img/conectar.png" alt="">
-          <div class="buttons">
-            <a href="">VER REPORTE</a>
-            <a href="">VER VIDEO</a>
-          </div>
-
-            <span class="desc">
-              En <b>DIRECTV Uruguay</b> queremos conectar a cada una de las personas que forman parte de nuestra compañía y de nuestro entorno para seguir creciendo juntos. <br>
-
-              Gran parte de las acciones de nuestra plataforma de RSE, Generación DIRECTV, fueron posibles gracias a las alianzas que pudimos establecer con fundaciones, escuelas, ONG y líderes de influencia. Cada uno de los compromisos de nuestra gestión nos definen como empresa y tienen en cuenta tanto los grupos de interés como las oportunidades de crecimiento. <br>
-
-              Junto con nuestos colaboradores nos conectamos para impactar tan lejos como sea posible. <br>
-
-
-
-
-            </span>
+          <img src="img/conectar.png" alt="">          
         </div> 
         <div class="right">
-          <ul>
-            <li class="clase"></li>
-            <li class="futbol"></li>
-            <li class="cancha"></li>
-            <li class="arbol"></li>
-          </ul>
+          <span class="desc">
+              En <b>DIRECTV Uruguay</b> queremos conectar a cada una de las personas que forman parte de nuestra compañía y de nuestro entorno para seguir creciendo juntos. <br>
+              <br>
+              Gran parte de las acciones de nuestra plataforma de RSE, <b>Generación DIRECTV</b>, son posibles gracias a las alianzas que establecemos con fundaciones, escuelas, ONG y líderes de influencia. Cada uno de los compromisos de nuestra gestión nos definen como empresa y tienen en cuenta tanto los grupos de interés como las oportunidades de crecimiento. <br> <br>
+
+              Junto con nuestos colaboradores nos conectamos para impactar tan lejos como sea posible.
+            </span>
+           <div class="buttons">
+              <a href="">VER REPORTE</a>
+              <!-- <a href="">VER VIDEO</a> -->
+          </div>
         </div>     
-
     </div>  
+    <div class="menuHolder school">
+      <div class="left">
+         <h3>EXPANDIMOS EL<span> <br>
+                 PROGRAMA ESCUELA+</span></h3>        
+        <div class="buttons">
+              <a href="#" onclick="school()">Ver más</a>
+              <!-- <a href="">VER VIDEO</a> -->
+          </div>
+        </div>
+        <div class="right">
+          
+           
+        </div>
+    </div> 
+    <div class="menuHolder futbol">
+      <div class="left">
+         <h3>POTENCIAMOS EVENTOS<span> <br>
+                  DEPORTIVOS SOLIDARIOS</span></h3>       
+        <div class="buttons">
+              <a href="#" onclick="futbol()">Ver más</a>
+              <!-- <a href="">VER VIDEO</a> -->
+          </div>
+        </div>
+        <div class="right">
+          
+           
+        </div>
+    </div> 
+    <div class="menuHolder suelo">
+      <div class="left">
+         <h3>GESTION SUSTENTABLE<span> <br>
+                  CON FOCO EN MEDIO AMBIENTE</span></h3>        
+        <div class="buttons">
+              <a href="#" onclick="suelo()">Ver más</a>
+              <!-- <a href="">VER VIDEO</a> -->
+          </div>
+        </div>
+        <div class="right">
+          
+           
+        </div>
+    </div> 
+    <div class="menuHolder rugby">
+      <div class="left">
+         <h3>Inspiramos valores<span> 
+            <br>junto a nuestros voluntarios</span></h3>        
+        <div class="buttons">
+              <a href="#" onclick="rugby()">Ver más</a>
+              <!-- <a href="">VER VIDEO</a> -->
+          </div>
+        </div>
+        <div class="right">
+          
+           
+        </div>
+    </div> 
 
-
+  </div>
+  <div class="mainContainer">
         <div class="slider">
+          <!-- primero -->
+          <div class="resumen" style="display:none">
+                <div class="desc">
+                  <h3>¡Orgullosos<span> <br>
+                  de nuestras acciones!</span></h3>
+                  <p>En <b>DIRECTV Uruguay</b> creemos que nunca es demasiado lejos si se trata de alcanzar impactos que hagan la diferencia. 
+
+                    Nuestros clientes son el centro de todo lo que hacemos, por eso mejorar su experiencia de servicio es nuestra meta.
+
+                    Celebramos haber cumplido nuestros objetivos de negocio, tanto como con las iniciativas que emprendimos con nuestros programas RSE.
+
+                  </p>
+                </div>
+                <div class="infografia">
+                    <img src="img/inforesumen.png" alt="">
+                    
+                </div>
+                    
+           </div>
           <!-- Escuelas -->
            <div class="item">
               <div class="upper">
                 <div class="desc">
-                  <h3>Llevamos Escuela+ <span> <br>
-                  cada vez mas lejos</span></h3>
-                 
-                  Nos aliamos con <b>Enseña Uruguay</b> para mejorar la capacitación de los docentes que acceden a los recursos del programa Escuela+, que cada año sigue expandiéndose. <br> 
+                  <h3>Expandimos el<span> <br>
+                  programa Escuela+</span></h3>
+                  <p>Nos aliamos con Enseña Uruguay para mejorar la capacitación de los docentes que acceden a los recursos del programa <b>Escuela+</b>, que cada año sigue expandiéndose.<br> 
 
-                  También sumamos a los agentes de servicio técnico de los departamentos, optimizando la modalidad de instalación en las escuelas y la capacidad de respuesta técnica. <br>
-
+                 También sumamos a los agentes de servicio técnico de los departamentos, optimizando la modalidad de instalación en las escuelas y la capacidad de respuesta técnica. 
+                  </p>
                 </div>
                 <div class="infografia">
                     <img src="img/infografia1.png" alt="">
@@ -88,11 +152,11 @@
                   <div class="circulos">
                     <div class="circItem">
                       <span>INNOVACIÓN</span>
-                      Fuimos parte del II Congreso Iberoamericano Escuela+, sumando al Departamento Tecnológico de Educación de Uruguay, para emprender en el futuro acciones conjuntas.
+                      Fuimos parte del II Congreso Iberoamericano <b>Escuela+</b>, sumando al Departamento Tecnológico de Educación de Uruguay, para emprender en el futuro acciones conjuntas.
                     </div>
                     <div class="circItem">
                       <span>SOCIOS</span>
-                        Escuela+ es un programa que ofrece recursos audiovisuales educativos, impulsado por DIRECTV, Discovery en la Escuela, National Geographic, Take Off Media, Torneos y Disney.
+                        <b>Escuela+</b> es un programa que ofrece recursos audiovisuales educativos, impulsado por <b>DIRECTV</b>, Discovery en la Escuela, National Geographic, Take Off Media, Torneos y Disney.
                     </div>
                    <img src="img/camioneta.png" alt="">
                   </div>
@@ -102,11 +166,11 @@
             <div class="item item2">
               <div class="upper">
                 <div class="desc">
-                  <h3>II Congreso Escuela+, <span> <br>
-                  el evento destacado del año</span></h3>
-                  <p>Por primera vez en Argentina, realizamos el II Congreso Iberoamericano <b>Escuela+</b> “Multipantallas en el aula”, con reconocidos oradores del ambiente académico internacional. <br> 
-                  <br>
-                  Más de 500 personas participaron del evento sobre educación, que superó expectativas y tuvo una gran difusión
+                  <h3>POTENCIAMOS EVENTOS<span> <br>
+                  DEPORTIVOS SOLIDARIOS</span></h3>      
+                  <p>Apoyamos el partido solidario Salto a la vida organizado por el delantero de la Selección Nacional, Edison Cavani, para colaborar con la Asociación Down de Salto en el desarrollo de las personas que asisten a esta institución. <br>
+
+                Transmitimos el partido solidario y reforzamos la acción donando los abonos de todos los contratos realizados en ese departamento, dinero que la asociación destinó a horas docentes.
                   </p>
                 </div>
                 <div class="infografia">
@@ -117,11 +181,15 @@
                 <h4>CONECTAMOS</h4>
                   <div class="circulos">
                     <div class="circItem">
-                      <span>VALOR</span>
-                      El evento fue reconocido por la Legislatura Porteña como un “Congreso de Interés Educacional de la Ciudad de Buenos Aires”. 
+                      <span>BENEFICIOS</span>
+                      Como compañía nuestra presencia en ese departamento de Uruguay era baja, por lo que esta acción nos permitió además acercarnos a la comunidad.  
                     </div>
-                   <img class="congres1" src="img/congeso1.png" alt="">
-                   <img class="congres2" src="img/congreso.png" alt="">
+                    <div class="circItem">
+                      <span>IDEAS</span>
+                      En Salto, convocamos a la comunidad a proponer iniciativas que agreguen valor a la localidad a través de nuestro programa de voluntariado <b>Piedra, Papel, Tijera</b>.
+  
+                    </div>
+                   <img class="congres2" src="img/jugador.png" alt="">
                   </div>
               </div>           
            </div>
@@ -129,11 +197,11 @@
            <div class="item item3">
               <div class="upper">
                 <div class="desc">
-                  <h3>Impulsamos el cine <span> <br>
-                  en la region</span></h3>
-                  <p>Fuimos parte de la segunda edición del <b>Festival Académico de Cine Universitario (FACIUNI)</b>, que impulsa el cine en la región y promueve la formación de futuros cineastas. En Argentina, el evento contó con la presencia del director de cine y ganador del Oscar, Juan José Campanella, que brindó una masterclass para estudiantes de cine. <br>
+                   <h3>GESTION SUSTENTABLE<span> <br>
+                  CON FOCO EN MEDIO AMBIENTE</span></h3>   
+                  <p>Diseñamos un Plan de Gestión Sustentable para integrar la gestión y monitoreo de aspectos ambientales a la estrategia de sustentabilidad de la empresa. También para sensibilizar y educar a los colaboradores y la comunidad. <br>
 
-                  Además, se difundieron los cortos ganadores de la cuarta edición del certamen <b>DIRECTV Cinema+</b>, un concurso que premia con dinero y becas de estudio a jóvenes universitarios. 
+                  En 2017 lanzamos importantes acciones como Basura Cero y Eficiencia Energética. 
                   </p>
                 </div>
                 <div class="infografia">
@@ -144,22 +212,15 @@
                 <h4>CONECTAMOS</h4>
                   <div class="circulos">
                     <div class="circItem">
-                      <span>SOCIOS</span>
-                     <b>DIRECTV Cinema+</b> es el compromiso de nuestra compañía y socios como Sundance Channel y Creative Artists Agency.
+                      <span>PROGRAMAS</span>
+                     Vinculamos nuestro plan ambiental con otros programas de la compañía como <b>Escuela+</b> y <b>The Forum</b>. 
+                    </div>
+                     <div class="circItem">
+                      <span>CONSCIENCIA</span>
+                     En nuestras oficinas y nuestras operaciones concientizamos sobre un consumo eficiente de los recursos energéticos. 
                     </div>
                     
-                   <img class="cine1" src="img/cine1.png" alt="">
-                   <img class="cine2" src="img/cine.png" alt="">
-                  </div>
-                  <div class="testimonios">
-                    <div class="testItem">
-                      <img src="img/campanella_test.png" alt="">
-                      <div class="text">
-                        <b>Juan José Campanella, director de cine y ganador del Oscar</b>
-                        <br>
-                        <em>"El cine latinoamericano ha ido creciendo aceleradamente a lo largo de los años debido al desarrollo del talento de nuestros cineastas y su habilidad para contar historias propias".</em>
-                      </div>
-                    </div>
+                   <img class="cine1" src="img/suelo1.png" alt="">
                   </div>
               </div>           
            </div>
@@ -167,10 +228,12 @@
             <div class="item item4">
               <div class="upper">
                 <div class="desc">
-                  <h3>Voluntarios<span> <br>que multiplican beneficios</span></h3>
-                  A través de nuestros voluntarios donamos horas a organizaciones sociales que en distintos puntos del país contribuyen con proyectos sostenibles para los que más necesitan. <br>
-                  <br>
-                  Como en Santa Fe, que realizamos mejoras en la casa de Valentín Olmedo, un jugador de la Selección Nacional de Fútbol en silla de ruedas, y esta acción nos permitió concientizar sobre la problemática de la discapacidad. También fuimos parte de la acción de voluntariado regional <b>Piedra, Papel, Tijera</b> en Perú, que les llevó soluciones a las familias afectadas por los aludes. 
+                  <h3>Voluntarios<span> 
+                  <br>que multiplican beneficios</span></h3>
+                  <p>
+                  Como parte del voluntariado <b>Piedra, Papel, Tijera - El Otro Sueño</b> refaccionamos la cancha deportiva del Liceo Jubilar Juan Pablo II, ubicado en el barrio Casavalle. Allí se brinda educación integral a estudiantes que viven en condiciones de vulnerabilidad y el deporte es una de las actividades que sirve para reforzar valores. <br>
+
+                  Además, ofrecimos dos clínicas deportivas para los equipos de rugby y fútbol femenino del centro educativo, junto a seleccionados deportivos nacionales. 
                   </p>
                 </div>
                 <div class="infografia">
@@ -182,11 +245,12 @@
                   <div class="circulos">
                     <div class="circItem">
                       <span>ALIADOS</span>
-                      Apoyamos a varias organizaciones, como Fundación Sí y Powerchair Football, con las que trabajamos en diferentes iniciativas de responsabilidad social. 
+                      La Selección Uruguaya de Rugby “Los Teros” y la Selección Uruguaya de Fútbol Femenino contribuyeron con esta gran iniciativa.  
                     </div>
                     <div class="circItem">
-                      <span>VALOR</span>
-                        Por quinto año consecutivo <b>DIRECTV Argentina</b> fue elegida como la empresa más solidaria de Vicente López, gracias a las iniciativas que desarrolló en esa comunidad. 
+                      <span>INSPIRACION</span>
+                        <b>DIRECTV</b> realizó un programa especial sobre esta acción: El Otro Sueño se emitió por la señal exclusiva de <b>OnDIRECTV</b> y fue visto por miles de personas.   
+
                     </div>
                    <img class="volun1" src="img/voluntarios.png" alt="">
                   </div>    
@@ -199,12 +263,13 @@
   </div>
   <footer class="footer">
     <div class="social">
-      <a href="www.generaciondirectv.com">
+      <a href="http://www.generaciondirectv.com/">
         generaciondirectv.com
       </a>
-      <a href="#" class="bRight"><i class="fab fa-twitter"></i></a>
-      <a href="#" class="bRight"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="http://twitter.com/generaciondtv" class="bRight"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.facebook.com/generaciondtv" class="bRight"><i class="fab fa-facebook"></i></a>
+      <a href="http://instagram.com/generaciondtv" class="bRight"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/user/GENERACIONDTV"><i class="fab fa-youtube"></i></a>
     </div>
       
       <div class="reports">
@@ -213,10 +278,11 @@
           <a class="bRight" href="#">2011</a>
           <a class="bRight" href="#">2012</a>
           <a class="bRight" href="#">2013</a>
+        </div>
+        <div class="years">  
           <a class="bRight" href="#">2014</a>
           <a class="bRight" href="#">2015</a>
           <a class="bRight" href="#">2016</a>
-          <a href="#">2017</a>
         </div>
 
       </div>   

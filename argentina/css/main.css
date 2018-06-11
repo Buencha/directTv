@@ -537,18 +537,20 @@ margin: 0;
 display: flex !important;
 
 flex-direction:  row;
+
+padding: 35px;
 }
 
 .resumen .desc {
 
-width:  50%;
+width: 50%;
 
 font-size: 18px;
 }
 
 .resumen .desc h3 {
 	
-color: #0889c6;
+color: #00adee;
 	
 font-size: 40px;
 }
@@ -584,6 +586,12 @@ justify-content:  center;
 border-bottom: 2px dashed white;
 }
 
+.resumen .row:last-child {
+
+border-bottom: 0;
+
+}
+
 .resumen .row  .each{
 
 display:  flex;
@@ -594,11 +602,9 @@ justify-content:  center;
 
 align-items:  center;
 
-/* border-bottom: 2px dashed white; */
-
 padding: 5px;
 
-margin: 0 20px;
+margin: 20px;
 }
 
 .resumen .row  .each img{
@@ -610,6 +616,11 @@ margin-bottom: 15px;
 
 .resumen .row  .each span {
 
+text-align: center;
+
+font-weight:  bold;
+
+font-size: 15px;
 }
 
 .infografia h3 {
@@ -621,6 +632,8 @@ font-size: 40px;
 justify-content:  center;
 
 display: flex;
+
+color: #00adee;
 }
 
 .isRow {
@@ -647,15 +660,43 @@ margin-top: 50px;
 
 .second h1{
 
-font-size: 75px;
+color: #00adee;
 
-margin: 15px 5px;
+font-size: 90px;
+
+margin: 5px;
 }
 
 .second p{width: 50%;margin: 35px 0;height: 40px;}
 
-.forth {align-items: center;}
+.forth {
+	align-items: center;
 
-.fifth {
+}
+.forth b {
+	margin-top: 20px;
+}
+.forth em {
+	
+font-size: 40px;
+	
+color: #00adee;
+}
 
+.forth span {text-align:  center;width: 69%;margin-bottom: 20px;}
+
+.fifth img{
+
+width: 22%;
+
+height: 50%;
+
+margin: 20px 0;
+}
+
+.fifth span {
+
+width: 55%;
+
+margin: 25px 0;
 }

@@ -22,24 +22,24 @@ $(document).ready(function(){
   
 
 function school() {
-	$(".slider")[0].slick.slickGoTo(0);
+	$(".slider")[0].slick.slickGoTo(1);
 	scrollDown();
 }
 
 function visor() {
-	$(".slider")[0].slick.slickGoTo(1);
-	scrollDown();
-
-}
-
-function campanella() {
 	$(".slider")[0].slick.slickGoTo(2);
 	scrollDown();
 
 }
 
-function hands() {
+function campanella() {
 	$(".slider")[0].slick.slickGoTo(3);
+	scrollDown();
+
+}
+
+function hands() {
+	$(".slider")[0].slick.slickGoTo(4);
 	scrollDown();
 
 }

@@ -102,15 +102,21 @@ header .logo img {
 	color: white;
 	border: 2px solid white;
 	border-radius: 7px;
-	padding: 2px;
-	font-size: 14px;
+	padding: 3px;
+	font-size: 16px;
 	font-weight:  bold;
+	opacity: .8;
+}
+
+.buttons a:hover {
+	opacity: 10;
 }
 
 .desc {
 	color: white;
-	margin: 20px 0;
+	margin: 50px 0 20px;
 	width: 75%;
+	text-align: justify;
 }
 
 .right {
@@ -162,6 +168,7 @@ margin: 0;
 }
 
 
+
 .school {
 	background: url(../img/school.jpg) no-repeat center center !important;
 	-webkit-background-size: cover;
@@ -195,25 +202,29 @@ margin: 0;
 }
 
 .school h3,
-.rugby h3,
+.futbol h3,
 .suelo h3,
-.futbol h3{
+.rugby h3{
 	color: #0caee5;
+	font-weight: 800;
 	font-size: 50px;
+	width: 65%;
+	margin-top: 85px;
+	line-height: 50px;
 }
 
 .school h3 span,
-.rugby h3 span,
+.futbol h3 span,
 .suelo h3 span,
-.futbol h3 span{
+.rugby h3 span{
 	color: white;
 	
 }
 
 .school .buttons a,
-.rugby .buttons a,
+.futbol .buttons a,
 .suelo .buttons a,
-.futbol .buttons a{
+.rugby .buttons a{
 	background-color: white;
 	color: #0caee5;
     padding: 5px 15px;
@@ -224,9 +235,9 @@ margin: 0;
 }
 
 .school .buttons,
-.visor .buttons,
+.futbol .buttons,
 .suelo .buttons,
-.futbol .buttons{
+.rugby .buttons{
 	justify-content: flex-start;
 	
 }
@@ -290,14 +301,25 @@ margin: 0;
 }
 
 .slider .item .upper .desc h3{
-	width: 60%;
+	width: 75%;
 	color: #0caee5;
+	line-height: 25px;
 	font-size: 26px;
+	margin-bottom: 10px;
+	font-weight: 800;
 }
 
 .slider .item4 .upper .desc h3{
-	width: 70%;
+	width: 45%;
 }
+
+.slider .item3 .upper .desc h3{
+
+width:  75%;
+
+text-align:  left;
+}
+
 
 .slider .item2 .upper .desc h3{
 	width: 80%;
@@ -316,8 +338,8 @@ margin: 0;
 }
 
 .slider .item .upper .infografia {
-	width: 60%;	
-	margin-left: 15px;
+	width: 60%;
+	margin-left: 35px;
 	margin-top: 80px;
 }
 
@@ -336,14 +358,11 @@ margin: 0;
 }
 
 .slider .item2 .upper .infografia img{
-	width: 90%;
-	margin-left: 40px;	
+	width: 36%;
+	margin-left: 200px;
 }
 
-.slider .item3 .upper .infografia img{
-	width: 55%;
-	margin-left: 90px;	
-}
+.slider .item3 .upper .infografia img{margin-top: 125px;width: 90%;}
 
 
 .slider .item .lower {
@@ -354,6 +373,7 @@ margin: 0;
 .slider .item .lower h4{
 	color: white;
 	font-size: 30px;
+	font-weight: 800;
 }
 
 .slider .item .lower  .circulos{
@@ -363,36 +383,42 @@ margin: 0;
 	align-items:  center;
 }
 
-.slider .item .lower  .circulos .holder{
+.slider .item2 .lower  .circulos .circItem{
 	
 }
+
+.slider .item4 .lower  .circulos .circItem{
+	
+}
+
 
 
 .slider .item .lower .circulos .circItem{
 	display: flex;
 	flex-direction: column;
 	color: white;
-	width: 16%;
+	width: 17%;
 	border: 2px dashed white;
 	border-radius: 100%;
-	height: 180px;
+	height: 185px;
 	align-items: center;
-	justify-content: center;
+	justify-content: start;
 	text-align: center;
 	font-size: 12px;
-	padding: 15px;
+	padding: 16px;
 }
 
 .slider .item .lower .circulos .circItem:first-child {
-	margin-left: 50px;
+	/* margin-left: 50px; */
 }
 
 
 
 .slider .item .lower  .circulos .circItem span{
+	margin-top: 5px;
 	color: #0caee5;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 800;
 }
 
 .slider .item .lower .circulos img{
@@ -439,10 +465,9 @@ margin: 0;
 }
 
 .slider .item4 .lower .circulos .volun1 {
-	width: 40%;	
-	height: 50%;
 	-webkit-clip-path: polygon(0 7%, 100% 0%, 96% 100%, 4% 100%);
 	clip-path: polygon(0 7%, 100% 0%, 96% 100%, 4% 100%);
+	margin-left: 0;
 }
 
 
@@ -472,22 +497,28 @@ margin: 0;
 	justify-content: center;
 }
 
-.slider .item .lower .testimonios .testItem .text span{
-	
-}
+
 
 .slider .item .lower .testimonios .testItem .text em{
 	font-size: 14px;
 }
+
+
+.slider .item .lower .testimonios .testItem:first-child .text span{
+	margin-top: 35px;
+}
+
+
+
 .slider .item .lower .testimonios .testItem img {
-	width: 35%;
+	width: 32%;
 	border-radius: 100%;
 	height: 160px;
 	/*margin: 0 20px;*/
 }
 
 .slider .item3 .lower .testimonios .testItem img {
-	width: 70%;
+	width: 65%;
 	height: 175px;
 }
 
@@ -548,9 +579,9 @@ padding: 35px;
 
 .resumen .desc {
 
-width: 50%;
+width: 40%;
 
-font-size: 18px;
+font-size: 22px;
 }
 
 .resumen .desc h3 {
@@ -558,6 +589,10 @@ font-size: 18px;
 color: #00adee;
 	
 font-size: 40px;
+	
+line-height: 40px;
+	
+text-align: left;
 }
 
 .resumen .desc span {
@@ -571,14 +606,16 @@ display:  flex;
 
 flex-direction:  column;
 
-justify-content:  center;
+justify-content: center;
 
-align-items:  center;
+align-items: center;
 
 color: white;
 
 font-size: 16px;
 }
+
+
 
 .resumen .row {
 
@@ -640,6 +677,8 @@ display: flex;
 
 color: #00adee;
 }
+
+.infografia img {width: 85%;/* margin-top: 70px; */}
 
 .isRow {
 	flex-direction: row;

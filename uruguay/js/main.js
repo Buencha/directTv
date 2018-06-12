@@ -3,8 +3,7 @@ $(document).ready(function(){
   $('.slider').slick();
   
   $('.upperPart').slick({
-  	dots: true,
-  	arrows:false
+  	dots: true
   });
   	
 	setTimeout(function(){
@@ -15,7 +14,8 @@ $(document).ready(function(){
   		$(".rugby").css("height", firstH);
   		$(".school").css("height", firstH);
 	},3500)
- 
+ 	 
+ 	bothSliders();
 	 // draw();
 	});
 
@@ -50,3 +50,18 @@ function scrollDown() {
                 }, 1000);
 }
 
+function bothSliders() {
+	$(document).on( 
+		"click", ".slider .slick-next.slick-arrow",
+		function(e){
+		 	$(".upperPart .slick-next.slick-arrow").click();
+		}
+	);
+
+	$(document).on( 
+			"click", ".slider .slick-prev.slick-arrow",
+			function(e){
+			 	$(".upperPart .slick-prev.slick-arrow").click();
+			}
+		);
+}

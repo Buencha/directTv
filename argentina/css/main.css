@@ -82,6 +82,7 @@ header .logo img {
 	display: flex;
 	flex-direction: column;
 	padding: 5vw 5vw;
+	
 }
 
 .left img {
@@ -200,6 +201,15 @@ margin: 0;
   	background-size: cover;
 }
 
+.school .left,
+.visor .left,
+.hands .left,
+.campanella .left{
+	-webkit-box-shadow: inset 200px 9px 198px -2px rgba(27,43,93,0.5);
+	-moz-box-shadow: inset 200px 9px 198px -2px rgba(27,43,93,0.5);
+	box-shadow: inset 200px 9px 198px -2px rgba(27,43,93,0.5);
+}
+
 .school h3,
 .visor h3,
 .hands h3,
@@ -210,6 +220,7 @@ margin: 0;
 	width: 65%;
 	margin-top: 85px;
 	line-height: 50px;
+	border-radius: 4px;
 }
 
 .school h3 span,
@@ -392,7 +403,7 @@ margin: 0;
 	border-radius: 100%;
 	height: 180px;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 	text-align: center;
 	font-size: 12px;
 	padding: 15px;
@@ -786,4 +797,29 @@ margin: 25px 0;
 .dashedD {
 	border-top: 2px dashed white;
 	border-left:  2px dashed white;
+}
+
+.maTop20 {
+	margin-top: 20px;
+}
+
+.maTop5 {
+	margin-top: 5px;
+}
+
+.upperPart .slick-arrow {
+	display: none !important;
+}
+
+#svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+#line{
+  stroke-width:2px;
+  stroke:rgb(0,0,0);
 }

@@ -4,7 +4,7 @@ $(document).ready(function(){
   
   $('.upperPart').slick({
   	dots: true,
-  	arrows:false
+  	arrows:true
   });
   	
 	setTimeout(function(){
@@ -16,7 +16,9 @@ $(document).ready(function(){
   		$(".school").css("height", firstH);
 	},3500)
  
-	 // draw();
+ 	bothSliders();
+ 	draw();
+	
 	});
 
   
@@ -61,4 +63,21 @@ function draw () {
 	var y2 = div2.offset().top + (div2.height()/2);
 
 	line.attr('x1',x1).attr('y1',y1).attr('x2',x2).attr('y2',y2);
+}
+
+
+function bothSliders() {
+	$(document).on( 
+		"click", ".slider .slick-next.slick-arrow",
+		function(e){
+		 	$(".upperPart .slick-next.slick-arrow").click();
+		}
+	);
+
+	$(document).on( 
+			"click", ".slider .slick-prev.slick-arrow",
+			function(e){
+			 	$(".upperPart .slick-prev.slick-arrow").click();
+			}
+		);
 }

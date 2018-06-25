@@ -116,7 +116,7 @@ header .logo img {
 	color: white;
 	margin: 50px 0 20px;
 	width: 75%;
-	text-align: justify;
+	/*text-align: justify;*/
 }
 
 .right {
@@ -797,10 +797,10 @@ margin: 25px 0;
 	border-left:  2px dashed white;
 }
 
-.slick-next.slick-arrow{
-	display: none;
+.upperPart .slick-next.slick-arrow{
+	opacity: 0;
 }
 
-.slick-prev.slick-arrow{
-	display: none;
+.upperPart .slick-prev.slick-arrow{
+	opacity: 0;
 }

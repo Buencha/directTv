@@ -3,7 +3,8 @@ $(document).ready(function(){
   $('.slider').slick();
   
   $('.upperPart').slick({
-  	dots: true
+  	dots: true,
+  	arrows: true
   });
   	
 	setTimeout(function(){

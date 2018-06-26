@@ -20,6 +20,12 @@ a {
 	flex-direction: column;
 	padding: 0 5vw;
 	height: 100%;
+	background: url(../img/lineas.png) no-repeat center center;
+	/*margin-top: 30px;*/
+}
+
+.slick-dotted.slick-slider {
+	margin-bottom: 0;
 }
 
 header {
@@ -205,9 +211,7 @@ margin: 0;
 .visor .left,
 .hands .left,
 .campanella .left{
-	-webkit-box-shadow: inset 200px 9px 198px -2px rgba(27,43,93,0.5);
-	-moz-box-shadow: inset 200px 9px 198px -2px rgba(27,43,93,0.5);
-	box-shadow: inset 200px 9px 198px -2px rgba(27,43,93,0.5);
+	background-image: linear-gradient(90deg, rgba(27, 43, 93, .6) 45%, rgba(255,0,0,0) 100%);
 }
 
 .school h3,

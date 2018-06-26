@@ -201,6 +201,14 @@ margin: 0;
   	background-size: cover;
 }
 
+
+.school .left,
+.futbol .left,
+.suelo .left,
+.rugby .left{
+	background-image: linear-gradient(90deg, rgba(27, 43, 93, .6) 45%, rgba(255,0,0,0) 100%);
+}
+
 .school h3,
 .futbol h3,
 .suelo h3,
@@ -397,15 +405,15 @@ text-align:  left;
 	display: flex;
 	flex-direction: column;
 	color: white;
-	width: 19%;
+	width: 16%;
 	border: 2px dashed white;
 	border-radius: 100%;
-	height: 185px;
+	height: 180px;
 	align-items: center;
-	justify-content: start;
+	justify-content: flex-start;
 	text-align: center;
 	font-size: 12px;
-	padding: 16px;
+	padding: 15px;
 }
 
 .slider .item .lower .circulos .circItem:first-child {
@@ -797,10 +805,27 @@ margin: 25px 0;
 	border-left:  2px dashed white;
 }
 
-.upperPart .slick-next.slick-arrow{
-	opacity: 0;
+.maTop20 {
+	margin-top: 20px;
 }
 
-.upperPart .slick-prev.slick-arrow{
-	opacity: 0;
+.maTop5 {
+	margin-top: 5px;
+}
+
+.upperPart .slick-arrow {
+	display: none !important;
+}
+
+#svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+#line{
+  stroke-width:2px;
+  stroke:rgb(0,0,0);
 }

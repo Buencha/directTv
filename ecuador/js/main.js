@@ -73,4 +73,14 @@ function bothSliders() {
 			 	$(".upperPart .slick-prev.slick-arrow").click();
 			}
 		);
+
+	$('.upperPart').on('beforeChange', function(event, slick ,thisSlide, nextSlide){
+	  
+	  	$(".slider")[0].slick.slickGoTo(nextSlide);
+	  
+	 
+	});
+
 }
+
+

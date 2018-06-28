@@ -15,11 +15,14 @@ a {
 	text-decoration: none;
 }
 
+
 .mainContainer {
 	display: flex;
 	flex-direction: column;
 	padding: 0 5vw;
 	height: 100%;
+	background: url(../img/lineas.png) no-repeat center center;
+	/*margin-top: 30px;*/
 }
 
 header {
@@ -301,6 +304,14 @@ margin: 0;
 	color: white;
 }
 
+.slider .item2 .upper .desc{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	color: white;
+}
+
+
 .slider .item .upper .desc h3{
 	width: 60%;
 	color: #0caee5;
@@ -352,13 +363,12 @@ margin: 0;
 }
 
 .slider .item2 .upper .infografia img{
-	width: 90%;
-	margin-left: 40px;	
+	margin-left: 30px;
+	margin-top: 40px;
 }
 
 .slider .item3 .upper .infografia img{
-	width: 55%;
-	margin-left: 90px;	
+	margin-top: 90px;
 }
 
 
@@ -417,7 +427,7 @@ margin: 0;
 }
 
 .slider .item .lower .circulos .circItem:first-child {
-	margin-left: 50px;
+	margin-left: 25px;
 }
 
 
@@ -532,8 +542,8 @@ margin: 0;
 }
 
 .slider .item3 .lower .testimonios .testItem img {
-	width: 65%;
-	height: 175px;
+	/* width: 65%; */
+	/* height: 175px; */
 }
 
 
@@ -589,7 +599,18 @@ display: flex !important;
 flex-direction:  row;
 
 padding: 35px;
+
+justify-content: center;
+align-items: center;
 }
+
+.resumen img {
+
+width: 90%;
+
+margin-top: 50px;
+}
+
 
 .resumen .desc {
 
@@ -824,3 +845,6 @@ margin: 25px 0;
 	display: none !important;
 }
 
+.slick-dotted.slick-slider {
+	margin-bottom: 0;
+}

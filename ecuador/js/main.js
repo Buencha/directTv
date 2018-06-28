@@ -10,7 +10,7 @@ $(document).ready(function(){
 	setTimeout(function(){
   		 var firstH = $(".upperPart").first().css("height");
 
-  		$(".bestplace").css("height", firstH);
+  		$(".bestPlace").css("height", firstH);
   		$(".voluntaries").css("height", firstH);
   		$(".partners").css("height", firstH);
 	},3500)

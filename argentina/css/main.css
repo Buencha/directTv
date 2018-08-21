@@ -49,6 +49,9 @@ header .logo img {
 
 .country {
 	margin-right: 5vw;
+	display:  flex;
+	align-items:  center;
+	justify-content:  space-around;
 }
 
 
@@ -831,4 +834,24 @@ margin: 25px 0;
 #line{
   stroke-width:2px;
   stroke:rgb(0,0,0);
+}
+
+.menu-bar {
+	text-decoration: none;
+	color: white;
+	/* width: 75px; */
+	margin-left: 20px;
+	display: none;
+}
+
+
+.menuMobile {
+	display: none;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.sliderMob,
+.upperMobile {
+	display: none;
 }

@@ -122,6 +122,7 @@ header .logo img {
 	opacity: 10;
 }
 
+
 .desc {
 	color: white;
 	margin: 50px 0 20px;
@@ -178,6 +179,7 @@ margin: 0;
 }
 
 
+.schoolMob,
 .school {
 	background: url(../img/school.png) no-repeat center center !important;
 	-webkit-background-size: cover;
@@ -186,6 +188,7 @@ margin: 0;
   	background-size: cover;
 }
 
+.visorMob,
 .visor {
 	background: url(../img/visor.png) no-repeat center center !important;
 	-webkit-background-size: cover;
@@ -194,6 +197,7 @@ margin: 0;
   	background-size: cover;
 }
 
+.handsMob,
 .hands {
 	background: url(../img/hands.png) no-repeat center center !important;
 	-webkit-background-size: cover;
@@ -202,6 +206,7 @@ margin: 0;
   	background-size: cover;
 }
 
+.campanellaMob,
 .campanella {
 	background: url(../img/campanella.png) no-repeat center center !important;
 	-webkit-background-size: cover;
@@ -566,7 +571,7 @@ margin: 0;
 }
 
 
-.footer .reports .years a{
+.footer .reports .years a {
 	padding: 0 5px;
 	color: white;
 }
@@ -575,6 +580,7 @@ margin: 0;
 	border-right: 1px solid white;
 
 }
+
 
 .resumen {
 
@@ -585,6 +591,7 @@ flex-direction:  row;
 padding: 35px;
 }
 
+
 .resumen .desc {
 
 width: 52%;
@@ -593,6 +600,7 @@ font-size: 25px;
 
 text-align: left;
 }
+
 
 .resumen .desc h3 {
 	
@@ -607,12 +615,14 @@ text-align: left;
 font-weight: 800;
 }
 
+
 .resumen .desc span {
 	
 color: white;
 	
 /* font-weight: 800; */
 }
+
 
 .resumen .infografia {
 
@@ -628,6 +638,7 @@ color: white;
 
 font-size: 16px;
 }
+
 
 
 
@@ -842,6 +853,7 @@ margin: 25px 0;
 	/* width: 75px; */
 	margin-left: 20px;
 	display: none;
+	font-size: 20px;
 }
 
 

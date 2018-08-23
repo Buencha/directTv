@@ -1,13 +1,6 @@
-.upperMobile {
-	
-
-}
-
 .upperMobile .menuHolder {
 	
 flex-direction:  column;
-	
-justify-content:  center;
 	
 align-items:  center;
 	
@@ -16,7 +9,9 @@ padding-top: 40px;
 
 .upperMobile .menuHolder img {
 	
-width: 70%;
+width: 75%;
+	
+margin-top: 25px;
 }
 
 .upperMobile .menuHolder .buttons {
@@ -29,7 +24,49 @@ justify-content: center;
 justify-content: center;
 	
 margin-top: 10px;
+width: 80%;
 }
+
+.sliderMob .slick-prev,
+.upperMobile .slick-prev {
+    left: 5px;
+    z-index: 1;
+}
+
+.sliderMob .slick-next,
+.upperMobile .slick-next {
+    right: 5px;
+}
+
+.upperMobile .slick-dots {
+	display: none !important;
+}
+
+.itemMob {
+
+}
+
+.itemMob .desc {
+	color: white;
+    margin: 50px 0;
+    width: 90%;
+}
+
+.upperMobile h3{
+	color: #0caee5;
+	font-weight: 800;
+	font-size: 43px;
+	width: 75%;
+	/* margin-top: 85px; */
+	line-height: 50px;
+	border-radius: 4px;
+}
+
+.upperMobile h3 span{
+	color: white;
+	
+}
+
 
 @media only screen and (max-width: 768px) {
 	
@@ -53,8 +90,33 @@ margin-top: 10px;
 		height: 100%;
 		background: url(../img/lineas.png) no-repeat center center;
 	}
+
+	.footer {
+
+flex-direction:  column;
+
+height: 15vh;
+
+justify-content:  center;
+
+}
+
+	.footer .social {
+		
+margin: 10px 0;
+	}
 	
-	
+.footer .social a{
+		font-size: 16px;
+	}
+		
+header .logo img {
+    width: 25vw;
+}
+
+.country img {
+	width: 20vw;
+}	
 
 }
 

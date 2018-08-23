@@ -6,7 +6,7 @@ $(".menu-bar").on('click', function(event) {
 setTimeout(function(){
   		 var firstH = $(".upperMobile").first().css("height");
 
-  		$(".menuHolder.resumenMob").css("height", firstH);
+  		$(".menuHolder.resumenMobTop").css("height", firstH);
   		$(".menuHolder.campanellaMob").css("height", firstH);
   		$(".menuHolder.visorMob").css("height", firstH);
   		$(".menuHolder.handsMob").css("height", firstH);
